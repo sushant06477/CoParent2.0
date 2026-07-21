@@ -1,0 +1,6 @@
+{
+  "name": "Education Ecosystem Portal",
+  "description": "A dynamic, multi-role portal for searching and managing educational services (coaching, hostels, libraries, flats/PG, career counselling) in Patna, Bihar, featuring admin approval workflows and role-specific dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
