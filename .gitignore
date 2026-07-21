@@ -1,8 +1,60 @@
-node_modules/
-build/
-dist/
-coverage/
-.DS_Store
-*.log
-.env*
+# Environment files & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
 !.env.example
+
+# Node modules & dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build & Dist output
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# OS & Editor generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvsopt
+*.njsproj
+*.sln
+*.swp
+*.sublime-workspace
+
+# Logs, Runtime & Temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.parcel-cache/
+
+# Coverage & Testing
+coverage/
+.nyc_output/
+
+# Local databases & Supabase CLI temporary files
+.supabase/
+*.db
+*.sqlite
+*.sqlite3

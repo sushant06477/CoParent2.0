@@ -7,6 +7,14 @@
 
 ## 📜 Log of Changes
 
+### [2026-07-21] Gitignore Security Audit & Sanitized .env.example
+- **Agent**: Antigravity AI Assistant
+- **Summary**: Conducted full codebase vulnerability audit prior to Git upload. Updated `.gitignore` with comprehensive patterns ignoring `.env*`, build bundles (`dist/`), `node_modules/`, editor/OS temp files, and runtime logs. Created sanitized `.env.example` template.
+- **Modified Files**:
+  - [`.gitignore`](file:///d:/CoParents/.gitignore)
+  - [`.env.example`](file:///d:/CoParents/.env.example)
+  - [`memory/CHANGELOG_MEMORY.md`](file:///d:/CoParents/memory/CHANGELOG_MEMORY.md)
+
 ### [2026-07-21] Super Admin Approval Action Buttons & Re-approval Loop
 - **Agent**: Antigravity AI Assistant
 - **Summary**: Enhanced `SuperAdminDashboard.tsx` with prominent 'Approve & Publish' buttons in Pending Approvals queue and 'Approve & Activate' buttons in Users & Departments table. Verified end-to-end partner lifecycle where approved Coaching users can log in, edit listing details, and re-submit changes for Super Admin re-approval.
